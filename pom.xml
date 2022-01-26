@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>3.6</version>
+	<version>0.0.1-SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
@@ -95,16 +95,16 @@
 	
 	<distributionManagement>
 	
-	    <repository>
+	    <!-- <repository>
 	      <id>nexus</id>
 	      <name>kaifreestyle</name>
 	      <url>http://204.236.146.134:8081/repository/kaifreestyle/</url>
-	    </repository>
+	    </repository> -->
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>devopsnexus</name>
-	      <url>http://204.236.146.134:8081/repository/devopsnexus/</url>
+	      <name>newsudheer</name>
+	      <url>http://204.236.146.134:8081/repository/newsudheer/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
